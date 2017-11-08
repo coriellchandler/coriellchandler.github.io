@@ -70,6 +70,15 @@
             }
 
         </style>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script>
+        $(document).ready(function(){
+            $("button").click(function(){
+                   $("ul.professional-interests").toggle();
+            });
+        });
+        
+        </script>
     </head> 
         <body>
         <div id="all-contents"> 
@@ -84,7 +93,7 @@
             
             <main>
                  <div class="sidebar">
-                     <img src="https://mail.google.com/mail/u/0/?ui=2&ik=0176661a10&view=att&th=15e5e7cfaad03e97&attid=0.1&disp=safe&zw">
+                     <img src="firstwebsitephoto.JPG">
                 </div>
     
                 <div class="content">
@@ -100,6 +109,19 @@
                     </section>
                 </div>
             </main>
+            <main>
+                  <div class="content">
+                      <header>Professional Interests</header>
+                      <section class="interests">
+                    <button>Use me to see my professional interests</button>
+                    <ul class="professional-interests">
+                    <li>Radiology</li>
+                    <li>Pediatrics</li>
+                    <li>Pharmacy</li>
+                    </ul>
+                    </section>
+                  </div>
+                </main>
         </div>
     </body>
 </html>
